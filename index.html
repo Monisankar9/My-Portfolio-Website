@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Monisankar Patra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f9bab965c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="a fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="a fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="hearde-text">
+            <p>Programmer</p>
+            <h1>Hi, I'm <span>Monisankar Patra</span> <br>From India</h1>
+        </div>
+
+    </div>
+</div>  
+<!-- ------------------------------About-------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A driven software developer with a good academic background is looking for an entry-level employment in a dynamic business. Currently enrolled in SIKSHA O ANUSANDHAN and keen to learn, explore industries, and become familiar with cutting-edge technology. I consider myself to be very motivated and results-driven, with the knowledge and enthusiasm to contribute significantly to your team Throughout my academic journey, I have excelled in various programming languages, including Java, Python, and gained hands-on experience in web development using HTML, CSS, and JavaScript. I have participated in several coding competitions and hackathons, which have enhanced my problem-solving abilities and fostered a creative mindset.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>PYTHON, JAVA, JAVASCRIPT(BASIC)</li>
+                            <li><span>Frameworks and Libraries</span><br>JQUERY, BOOTSTRAP</li>
+                            <li><span>TECHNICAL SKILLS</span><br>HTML, CSS, MS EXCEL, MS OFFICE</li>
+                            <li><span>ADDITIONAL SKILLS</span><br>Algorithm Design, Computer Organization and Architecture, Digital Logic Design</li>
+                            <li><span>PERSONAL SKILLS</span><br>Quick learner, Time Management, Problem-solving, Leadership, Teamwork, Emotional Intelligence</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Designing Web/App interface</li>
+                            <li><span>App Development</span><br>Designing Web/App interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech, Computer Science and Engineering</span><br>CGPA/Percentage - 9.1<br>Institute of Technical Education and Research</li>
+                            <li><span>Higher Secondary Examination</span><br>CGPA/Percentage - 93%<br>West Bengal Board </li>
+                            <li><span>Madhyamik (Secondary) Examination</span><br>CGPA/Percentage - 86%<br>West Bengal Board </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------Services-------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores natus quis, qui beatae enim fuga!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores natus quis, qui beatae enim fuga!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores natus quis, qui beatae enim fuga!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------Portfolio----------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Todo-List</h3>
+                    <p> Developed a productivity-focused To-Do List application from scratch using HTML, CSS, jQuery, and Bootstrap.The goal of the project was to enhance productivity by providing a simple and intuitive tool for organizing and tracking tasks effectively.</p>
+                    <a href="https://monisankar9.github.io/Todo-List-Project/" target="_blank"><i class="fas fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Basic-Calculator</h3>
+                    <p>Developed a fully functional Basic Calculator web application utilizing HTML, CSS, jQuery, JavaScript, and Bootstrap.The project's primary goal was to enhance calculation speed and convenience, providing users with a quick and efficient tool for performing basic mathematical operations.</p>
+                    <a href="https://monisankar9.github.io/Basic-Calculator/" target="_blank"><i class="fas fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Event Page</h3>
+                    <p>Developed an Event Page web application using HTML, CSS, jQuery, JavaScript, and Bootstrap.The goal of the project was to provide event organizers with a visually appealing platform to promote events effectively and engage attendees
+                    through seamless navigation and event information accessibility.</p>
+                    <a href="https://monisankar9.github.io/Event-Page/" target="_blank"><i class="fas fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="# " class="btn">See More</a>
+    </div>
+</div>
+<!-- -----------------------------Contact--------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>  myemail@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>  1234567890</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Monisankar9" target="__blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/monisankar-patra/" target="__blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" target="__blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://learntrees.blogspot.com/" target="__blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 Monisankar Patra. All rights reserved.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
